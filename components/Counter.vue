@@ -17,19 +17,19 @@ export default {
 
 <style lang="scss" scoped>
 .counter {
-  text-align: center;
   margin: 20px;
+  text-align: center;
 
   h1 {
+    color: #fdfdfd;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 3em;
-    color: #fdfdfd;
   }
 
   p {
+    color: #fdfdfd;
     font-family: 'Nunito', sans-serif;
     font-size: 4em;
-    color: #fdfdfd;
     line-height: 1em;
   }
 
