@@ -14,7 +14,7 @@ export default {}
   border-radius: 30px;
   box-shadow: 0 3px 30px 0 rgba(0, 120, 245, 0.15);
   height: 550px;
-  margin: 40px auto;
+  margin: 20px auto;
   position: relative;
   width: 550px;
 

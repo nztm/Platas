@@ -1,5 +1,5 @@
 <template>
-  <div class="position">
+  <div>
     <Counter />
     <Object />
     <Button />
@@ -23,9 +23,5 @@ export default {
 <style lang="scss">
 body {
   background-color: #82d1a7;
-}
-
-.position {
-  margin-top: 30px;
 }
 </style>

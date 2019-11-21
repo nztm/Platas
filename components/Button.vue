@@ -18,6 +18,7 @@ export default {}
   display: flex;
   font-family: 'Nunito', sans-serif;
   font-size: 2.3em;
+  height: 60px;
   margin: 0 auto;
   padding: 3px 24px;
   width: 130px;
