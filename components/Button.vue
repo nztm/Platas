@@ -1,5 +1,5 @@
 <template>
-  <a class="button">
+  <a class="button" @click="$store.commit('counter/countUp')">
     <img src="~/assets/img/Icon/fire.svg" />
     <span>+1</span>
   </a>

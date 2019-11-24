@@ -1,18 +1,12 @@
 <template>
   <div class="counter">
     <h1>成長度</h1>
-    <p>{{ count }}</p>
+    <p>{{ $store.state.counter.counter }}</p>
   </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      count: 35
-    }
-  }
-}
+export default {}
 </script>
 
 <style lang="scss" scoped>
