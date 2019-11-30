@@ -68,6 +68,17 @@ export default {
       }
     },
     /* Toggle HardSourceWebpackPlugin */
-    hardSource: true
+    hardSource: true,
+
+    /* Toggle minify settings */
+    collapseBooleanAttributes: true,
+    decodeEntities: true,
+    minifyCSS: true,
+    minifyJS: true,
+    processConditionalComments: true,
+    removeEmptyAttributes: true,
+    removeRedundantAttributes: true,
+    trimCustomFragments: true,
+    useShortDoctype: true
   }
 }
