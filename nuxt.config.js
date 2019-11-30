@@ -66,6 +66,8 @@ export default {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    /* Toggle HardSourceWebpackPlugin */
+    hardSource: true
   }
 }
