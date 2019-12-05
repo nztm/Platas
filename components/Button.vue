@@ -1,12 +1,18 @@
 <template>
-  <a class="button" @click="$store.commit('counter/countUp')">
+  <a class="button" @click="countUp">
     <img src="~/assets/img/Icon/fire.svg" />
     <span>+1</span>
   </a>
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    countUp() {
+      this.$store.dispatch('counter/increment')
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

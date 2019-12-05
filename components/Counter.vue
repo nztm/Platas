@@ -1,12 +1,21 @@
 <template>
   <div class="counter">
     <h1>成長度</h1>
-    <p>{{ $store.state.counter.counter }}</p>
+    <p>{{ $store.state.counter.counter.count }}</p>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      counter: ''
+    }
+  },
+  created() {
+    this.$store.dispatch('counter/init')
+  }
+}
 </script>
 
 <style lang="scss" scoped>
