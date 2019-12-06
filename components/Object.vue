@@ -1,42 +1,42 @@
 <template>
   <div class="object">
-    <div v-if="$store.state.counter.counter.count <= 10">
+    <div v-if="$store.state.counter.counter.count < 10">
       <img src="~/assets/img/Object/v1.svg" />
     </div>
 
-    <div v-else-if="$store.state.counter.counter.count <= 20">
+    <div v-else-if="$store.state.counter.counter.count < 20">
       <img src="~/assets/img/Object/v2.svg" />
     </div>
 
-    <div v-else-if="$store.state.counter.counter.count <= 30">
+    <div v-else-if="$store.state.counter.counter.count < 30">
       <img src="~/assets/img/Object/v3.svg" />
     </div>
 
-    <div v-else-if="$store.state.counter.counter.count <= 40">
+    <div v-else-if="$store.state.counter.counter.count < 40">
       <img src="~/assets/img/Object/v4.svg" />
     </div>
 
-    <div v-else-if="$store.state.counter.counter.count <= 50">
+    <div v-else-if="$store.state.counter.counter.count < 50">
       <img src="~/assets/img/Object/v5.svg" />
     </div>
 
-    <div v-else-if="$store.state.counter.counter.count <= 60">
+    <div v-else-if="$store.state.counter.counter.count < 60">
       <img src="~/assets/img/Object/v6.svg" />
     </div>
 
-    <div v-else-if="$store.state.counter.counter.count <= 70">
+    <div v-else-if="$store.state.counter.counter.count < 70">
       <img src="~/assets/img/Object/v7.svg" />
     </div>
 
-    <div v-else-if="$store.state.counter.counter.count <= 80">
+    <div v-else-if="$store.state.counter.counter.count < 80">
       <img src="~/assets/img/Object/v8.svg" />
     </div>
 
-    <div v-else-if="$store.state.counter.counter.count <= 90">
+    <div v-else-if="$store.state.counter.counter.count < 90">
       <img src="~/assets/img/Object/v9.svg" />
     </div>
 
-    <div v-else-if="$store.state.counter.counter.count <= 9999">
+    <div v-else-if="$store.state.counter.counter.count < 9999">
       <img src="~/assets/img/Object/v10.svg" />
     </div>
 
