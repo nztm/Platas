@@ -47,7 +47,10 @@ export default {
    */
   modules: ['@nuxtjs/dotenv'],
 
-  buildModules: ['@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-analytics'],
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID
+  },
 
   /*
    ** Build configuration
