@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/dotenv": "1.4.1",
     "cross-env": "^6.0.3",
-    "firebase": "7.5.0",
+    "firebase": "7.5.1",
     "node-sass": "^4.13.0",
     "nuxt": "^2.4.0",
     "sass-loader": "^8.0.0",
