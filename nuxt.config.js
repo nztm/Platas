@@ -45,11 +45,16 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/dotenv'],
+  modules: ['@nuxtjs/dotenv', '@nuxtjs/sentry'],
 
   buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-analytics'],
+
   googleAnalytics: {
     id: process.env.GOOGLE_ANALYTICS_ID
+  },
+
+  sentry: {
+    dsn: process.env.SENTRY_DSN
   },
 
   /*
