@@ -10,6 +10,7 @@ export default {
   methods: {
     countUp() {
       this.$store.dispatch('counter/increment')
+      this.$store.dispatch('date/setDate')
     }
   }
 }
