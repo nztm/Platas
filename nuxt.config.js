@@ -47,7 +47,11 @@ export default {
    */
   modules: ['@nuxtjs/dotenv', '@nuxtjs/sentry'],
 
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-analytics'],
+  buildModules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/moment'
+  ],
 
   googleAnalytics: {
     id: process.env.GOOGLE_ANALYTICS_ID
@@ -57,6 +61,9 @@ export default {
     dsn: process.env.SENTRY_DSN
   },
 
+  moment: {
+    locales: ['ja']
+  },
   /*
    ** Build configuration
    */
