@@ -1,4 +1,5 @@
 import { firestoreAction } from 'vuexfire'
+import moment from 'moment'
 import firebase from '~/plugins/firebase'
 
 let uid = ''
@@ -11,7 +12,7 @@ export const actions = {
   }),
   setDate: firestoreAction(() => {
     userRef.doc(uid).set({
-      lastDate: new Date()
+      lastDate: moment().format('YYYYMMDD')
     })
   })
 }
