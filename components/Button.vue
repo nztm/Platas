@@ -1,12 +1,22 @@
 <template>
-  <a class="button" @click="countUp">
-    <img src="~/assets/img/Icon/fire.svg" />
-    <span>+1</span>
-  </a>
+  <!-- <div v-if="disabled"> -->
+    <a class="button" @click="countUp">
+      <img src="~/assets/img/Icon/fire.svg" />
+      <span>+1</span>
+    </a>
+  <!-- </div> -->
 </template>
 
 <script>
+// import moment from 'moment'
+
+// const date = moment().format('YYYYMMDD')
+// const disabled = databaseDate !== date
+
 export default {
+  // created() {
+  //   this.$store.dispatch('date/getDate')
+  // },
   methods: {
     countUp() {
       this.$store.dispatch('counter/increment')
