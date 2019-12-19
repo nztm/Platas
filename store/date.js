@@ -6,17 +6,22 @@ let uid = ''
 const db = firebase.firestore()
 const userRef = db.collection('users')
 
-// export const state = () => ({
-//   lastDate: ''
-// })
+export const state = () => ({
+  lastDate: ''
+})
 
 export const actions = {
-  getUser: firebase.auth().onAuthStateChanged(user => {
-    uid = user.uid
+  getUser() {
+    return new Promise(resolve => {
+      firebase.auth().onAuthStateChanged(user => {
+        uid = user.uid
+        resolve()
+      })
+    })
+  },
+  getDate: firestoreAction(({ bindFirestoreRef }) => {
+    bindFirestoreRef('lastDate', userRef.doc(uid))
   }),
-  // getDate: firestoreAction(({ bindFirestoreRef }) => {
-  //   bindFirestoreRef('lastDate', userRef.doc(uid))
-  // }),
   setDate: firestoreAction(() => {
     userRef.doc(uid).set({
       lastDate: moment().format('YYYYMMDD')
