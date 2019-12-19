@@ -18,7 +18,7 @@
     "cross-env": "^6.0.3",
     "firebase": "7.6.0",
     "node-sass": "^4.13.0",
-    "nuxt": "^2.11.0",
+    "nuxt": "^2.4.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.2",
     "vuexfire": "3.2.0"
