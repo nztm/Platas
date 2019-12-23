@@ -1,12 +1,24 @@
 <template>
-  <a class="button" @click="countUp">
-    <img src="~/assets/img/Icon/fire.svg" />
-    <span>+1</span>
-  </a>
+  <div v-if="nowDate !== lastDate">
+    <a class="button" @click="countUp">
+      <img src="~/assets/img/Icon/fire.svg" />
+      <span>+1</span>
+    </a>
+  </div>
 </template>
 
 <script>
+import dayjs from 'dayjs'
+
 export default {
+  computed: {
+    nowDate() {
+      return dayjs().format('YYYY-MM-DD')
+    },
+    lastDate() {
+      return this.$store.state.date.lastDate.lastDate
+    }
+  },
   async created() {
     await this.$store.dispatch('date/getUser')
     this.$store.dispatch('date/getDate')
