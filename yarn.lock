@@ -1210,14 +1210,6 @@
   dependencies:
     vue-analytics "^5.18.0"
 
-"@nuxtjs/moment@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/moment/-/moment-1.4.0.tgz#0c03ca84be97729b6dc03ccfb42655c25d526442"
-  integrity sha512-WrOxl4Z9EvHinl7RKojDGVlNidHsayaCOcoMvcjvVKzfoa/svQO6UfHQxm6tRdQeE8wL9aFcb8MaapqzI4Xslg==
-  dependencies:
-    moment "^2.24.0"
-    moment-locales-webpack-plugin "^1.1.0"
-
 "@nuxtjs/sentry@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/sentry/-/sentry-3.0.1.tgz#4ff16fac4008c28349c90a5f51c84231b1a19dfd"
@@ -3315,6 +3307,11 @@ dashdash@^1.12.0:
   integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
   dependencies:
     assert-plus "^1.0.0"
+
+dayjs@^1.8.18:
+  version "1.8.18"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.18.tgz#c9b3fcd5a8eca96ed20a907f4491516d6eda15c9"
+  integrity sha512-JBMJZghNK8TtuoPnKNIzW9xavVVigld/zmZNpZSyQbkb2Opp55YIfZUpE4OEqPF/iyUVQTKcn1bC2HtC8B7s3g==
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -5787,11 +5784,6 @@ lodash.defaultsdeep@^4.6.1:
   resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
   integrity sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==
 
-lodash.difference@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.difference/-/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
-  integrity sha1-nMtOUF1Ia5FlE0V3KIWi3yf9AXw=
-
 lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
@@ -6205,18 +6197,6 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
-
-moment-locales-webpack-plugin@^1.1.0:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/moment-locales-webpack-plugin/-/moment-locales-webpack-plugin-1.1.2.tgz#9ae5263ac38d5cba227fc9d76efad025bb685a0c"
-  integrity sha512-s+JE7lADQjUyeQvqB3sVcfxXncg1o+t5hrRl2GBY66vXuLO2tXIjD+4mNUXQMS10qCGoeK3R3skBrW34gHobBQ==
-  dependencies:
-    lodash.difference "^4.5.0"
-
-moment@^2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
