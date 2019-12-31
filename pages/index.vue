@@ -35,7 +35,7 @@ body {
 
 #feedIn {
   opacity: 0;
-  animation: feedIn 1.5s ease 2.5s 1 normal forwards running;
+  animation: feedIn 0.5s ease 2.5s 1 normal forwards running;
 }
 
 @keyframes feedIn {
