@@ -1,5 +1,5 @@
-[![CircleCI](https://circleci.com/gh/nztm/Platas.svg?style=svg)](https://circleci.com/gh/nztm/Platas)
-[![CircleCI](https://img.shields.io/github/v/release/nztm/Platas?style=flat-square)](https://github.com/nztm/Platas/releases)
+[![CircleCI](https://circleci.com/gh/nztm/Platas.svg?style=svg&circle-token=17b53c2197be443196a94ac69026d23941c42a4f)](https://circleci.com/gh/nztm/Platas)
+[![GitHub Release](https://img.shields.io/github/v/release/nztm/Platas?style=flat-square)](https://github.com/nztm/Platas/releases)
 
 # Platas（プラタス）- 場に毎日の変化を
 ![Platas](https://i.imgur.com/oebO4Gi.png)
