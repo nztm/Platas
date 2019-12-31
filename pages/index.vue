@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="feedIn">
     <Counter />
     <Object />
     <Button />
@@ -31,5 +31,19 @@ export default {
 body {
   background-color: #82d1a7;
   user-select: none;
+}
+
+#feedIn {
+  opacity: 0;
+  animation: feedIn 1.5s ease 2.5s 1 normal forwards running;
+}
+
+@keyframes feedIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 </style>
