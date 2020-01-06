@@ -16,7 +16,7 @@
     "@nuxtjs/dotenv": "1.4.1",
     "@nuxtjs/sentry": "^3.0.1",
     "cross-env": "^6.0.3",
-    "dayjs": "^1.8.18",
+    "dayjs": "^1.8.19",
     "firebase": "7.6.1",
     "node-sass": "^4.13.0",
     "nuxt": "^2.4.0",
