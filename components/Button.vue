@@ -1,6 +1,6 @@
 <template>
   <div v-if="nowDate !== lastDate">
-    <a class="button" @click="countUp">
+    <a id="scale" class="button" @click="countUp">
       <img src="~/assets/img/Icon/fire.svg" />
       <span>+1</span>
     </a>
@@ -52,6 +52,21 @@ export default {
 
   span {
     padding: 0 0 0 12px;
+  }
+}
+
+#scale {
+  animation-name: anim_sc;
+  transform: scale(0.95, 0.95);
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+
+  @keyframes anim_sc {
+    100% {
+      transform: scale(1, 1);
+    }
   }
 }
 </style>
