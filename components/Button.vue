@@ -65,7 +65,7 @@ export default {
 
   @keyframes anim_sc {
     100% {
-      transform: transform scale(1.1, 1.1);
+      transform: scale(1.1, 1.1);
     }
   }
 }
