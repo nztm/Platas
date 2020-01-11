@@ -1,7 +1,7 @@
 <template>
   <div class="counter">
     <h1>成長度</h1>
-    <p>{{ $store.state.counter.counter.count }}</p>
+    <p>{{ count }}</p>
   </div>
 </template>
 
@@ -10,6 +10,11 @@ export default {
   data() {
     return {
       counter: ''
+    }
+  },
+  computed: {
+    count() {
+      return this.$store.state.counter.counter.count
     }
   },
   created() {
