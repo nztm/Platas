@@ -7,11 +7,7 @@
 
 <script>
 export default {
-  data() {
-    return {
-      counter: ''
-    }
-  },
+  data() {},
   computed: {
     count() {
       return this.$store.state.counter.counter.count
