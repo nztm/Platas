@@ -47,7 +47,11 @@ export default {
    */
   modules: ['@nuxtjs/dotenv', '@nuxtjs/sentry'],
 
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-analytics'],
+  buildModules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/imagemin'
+  ],
 
   googleAnalytics: {
     id: process.env.GOOGLE_ANALYTICS_ID
