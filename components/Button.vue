@@ -42,7 +42,7 @@ export default {
   font-family: 'Nunito', sans-serif;
   font-size: 2.3em;
   height: 60px;
-  margin: 25px auto 0 auto;
+  margin: 25px auto;
   padding: 3px 24px;
   width: 130px;
 
