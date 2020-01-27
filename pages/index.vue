@@ -34,8 +34,8 @@ body {
 }
 
 #feedIn {
-  opacity: 0;
   animation: feedIn 0.5s ease 2.5s 1 normal forwards running;
+  opacity: 0;
 
   @keyframes feedIn {
     0% {

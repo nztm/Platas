@@ -56,12 +56,12 @@ export default {
 }
 
 #scale {
-  animation-name: anim_sc;
-  transform: scale(1, 1);
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: anim_sc;
+  animation-timing-function: ease-in-out;
+  transform: scale(1, 1);
 
   @keyframes anim_sc {
     100% {
