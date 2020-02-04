@@ -5,6 +5,12 @@
       <span>+1</span>
     </a>
   </div>
+  <div v-else>
+    <a class="button disabled">
+      <img src="~/assets/img/Icon/fire.svg" />
+      <span>今日の分は済</span>
+    </a>
+  </div>
 </template>
 
 <script>
@@ -53,6 +59,14 @@ export default {
   span {
     padding: 0 0 0 12px;
   }
+}
+
+.disabled {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1.2em;
+  padding: 16px 24px;
+  width: 200px;
+  opacity: 0.7;
 }
 
 #scale {
