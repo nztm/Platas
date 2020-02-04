@@ -8,7 +8,7 @@
   <div v-else>
     <a class="button disabled">
       <img src="~/assets/img/Icon/fire.svg" />
-      <span>今日の分は済</span>
+      <span>今日は実施済み</span>
     </a>
   </div>
 </template>
@@ -65,7 +65,7 @@ export default {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1.2em;
   padding: 16px 24px;
-  width: 200px;
+  width: 220px;
   opacity: 0.7;
 }
 
