@@ -64,9 +64,9 @@ export default {
 .disabled {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1.2em;
+  opacity: 0.7;
   padding: 16px 24px;
   width: 220px;
-  opacity: 0.7;
 }
 
 #scale {
