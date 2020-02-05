@@ -1,38 +1,38 @@
 <template>
   <div class="object">
-    <div v-if="count < 50">
+    <div v-if="count < 30">
       <img src="~/assets/img/Object/v1.svg" />
     </div>
 
-    <div v-else-if="count < 100">
+    <div v-else-if="count < 60">
       <img src="~/assets/img/Object/v2.svg" />
     </div>
 
-    <div v-else-if="count < 150">
+    <div v-else-if="count < 90">
       <img src="~/assets/img/Object/v3.svg" />
     </div>
 
-    <div v-else-if="count < 200">
+    <div v-else-if="count < 120">
       <img src="~/assets/img/Object/v4.svg" />
     </div>
 
-    <div v-else-if="count < 300">
+    <div v-else-if="count < 150">
       <img src="~/assets/img/Object/v5.svg" />
     </div>
 
-    <div v-else-if="count < 400">
+    <div v-else-if="count < 180">
       <img src="~/assets/img/Object/v6.svg" />
     </div>
 
-    <div v-else-if="count < 500">
+    <div v-else-if="count < 210">
       <img src="~/assets/img/Object/v7.svg" />
     </div>
 
-    <div v-else-if="count < 600">
+    <div v-else-if="count < 240">
       <img src="~/assets/img/Object/v8.svg" />
     </div>
 
-    <div v-else-if="count < 700">
+    <div v-else-if="count < 270">
       <img src="~/assets/img/Object/v9.svg" />
     </div>
 
