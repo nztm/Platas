@@ -1,7 +1,7 @@
 <template>
   <div id="feedIn">
     <Counter />
-    <Object />
+    <Object ref="object" />
     <Button />
   </div>
 </template>
