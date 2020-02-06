@@ -1,43 +1,43 @@
 <template>
   <div class="object">
     <div v-if="count < 30">
-      <img src="~/assets/img/Object/v1.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v1.svg" />
     </div>
 
     <div v-else-if="count < 60">
-      <img src="~/assets/img/Object/v2.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v2.svg" />
     </div>
 
     <div v-else-if="count < 90">
-      <img src="~/assets/img/Object/v3.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v3.svg" />
     </div>
 
     <div v-else-if="count < 120">
-      <img src="~/assets/img/Object/v4.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v4.svg" />
     </div>
 
     <div v-else-if="count < 150">
-      <img src="~/assets/img/Object/v5.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v5.svg" />
     </div>
 
     <div v-else-if="count < 180">
-      <img src="~/assets/img/Object/v6.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v6.svg" />
     </div>
 
     <div v-else-if="count < 210">
-      <img src="~/assets/img/Object/v7.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v7.svg" />
     </div>
 
     <div v-else-if="count < 240">
-      <img src="~/assets/img/Object/v8.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v8.svg" />
     </div>
 
     <div v-else-if="count < 270">
-      <img src="~/assets/img/Object/v9.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v9.svg" />
     </div>
 
     <div v-else-if="count < 9999">
-      <img src="~/assets/img/Object/v10.svg" />
+      <img :class="{ animation: isAnim }" src="~/assets/img/Object/v10.svg" />
     </div>
 
     <div v-else></div>
@@ -46,9 +46,28 @@
 
 <script>
 export default {
+  data() {
+    return {
+      isAnim: false,
+      interval: null
+    }
+  },
   computed: {
     count() {
       return this.$store.state.counter.counter.count
+    }
+  },
+  methods: {
+    doAnim() {
+      if (this.isAnim === true || this.interval !== null) {
+        return
+      }
+      this.isAnim = true
+      this.interval = setInterval(() => {
+        this.isAnim = false
+        clearInterval(this.interval)
+        this.interval = null
+      }, 1100)
     }
   }
 }
@@ -73,6 +92,24 @@ export default {
     right: 0;
     top: 0;
     width: 500px;
+  }
+}
+
+.animation {
+  animation-direction: normal;
+  animation-duration: 1s;
+  animation-name: anim_sc;
+  animation-timing-function: ease;
+  transform: scale(1, 1);
+
+  @keyframes anim_sc {
+    50% {
+      transform: scale(0.9, 0.9);
+    }
+
+    100% {
+      transform: scale(1, 1);
+    }
   }
 }
 

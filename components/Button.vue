@@ -1,6 +1,13 @@
 <template>
   <div v-if="nowDate !== lastDate">
-    <a id="scale" class="button" @click="countUp">
+    <a
+      id="scale"
+      class="button"
+      @click="
+        countUp()
+        $parent.$refs.object.doAnim()
+      "
+    >
       <img src="~/assets/img/Icon/fire.svg" />
       <span>+1</span>
     </a>
