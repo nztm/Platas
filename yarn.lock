@@ -1317,15 +1317,15 @@
     imagemin-svgo "^7.0.0"
     imagemin-webpack "^5.1.1"
 
-"@nuxtjs/sentry@^3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/sentry/-/sentry-3.2.2.tgz#ee0add861b18844f8367e1e30d5c7bac1e5f5c91"
-  integrity sha512-eoHSoN9+QiHwIBY8aa8sVgZnh9X73BqlZy0qtO3LthM2awROFEYJ3sqIGkhrucgTrRM8na6LAFNEvd64QI9sCw==
+"@nuxtjs/sentry@^3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/sentry/-/sentry-3.2.3.tgz#ac102faeb9b1d6ad65d14abdb9705173108dc6c2"
+  integrity sha512-3dTH9y2Of70h7JSk73kuxRMd9zxidwMsZp/OJJlb66b73rKR9dZtBCkH6J7z1vh+32b5IZh9vLP1LfWZaHnd0Q==
   dependencies:
-    "@sentry/browser" "^5.11.2"
-    "@sentry/integrations" "^5.11.1"
-    "@sentry/node" "^5.11.2"
-    "@sentry/webpack-plugin" "^1.9.3"
+    "@sentry/browser" "^5.12.1"
+    "@sentry/integrations" "^5.12.0"
+    "@sentry/node" "^5.12.3"
+    "@sentry/webpack-plugin" "^1.10.0"
     consola "^2.11.3"
     deepmerge "^4.2.2"
 
@@ -1418,7 +1418,7 @@
     "@sentry/utils" "5.12.0"
     tslib "^1.9.3"
 
-"@sentry/browser@5.12.1", "@sentry/browser@^5.11.2":
+"@sentry/browser@5.12.1", "@sentry/browser@^5.12.1":
   version "5.12.1"
   resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-5.12.1.tgz#dc1f268595269fb7277f55eb625c7e92d76dc01b"
   integrity sha512-Zl7VdppUxctyaoqMSEhnDJp2rrupx8n8N2n3PSooH74yhB2Z91nt84mouczprBsw3JU1iggGyUw9seRFzDI1hw==
@@ -1460,7 +1460,7 @@
     "@sentry/utils" "5.12.0"
     tslib "^1.9.3"
 
-"@sentry/integrations@^5.11.1":
+"@sentry/integrations@^5.12.0":
   version "5.12.0"
   resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-5.12.0.tgz#4d735abf2989049ef860e3eaad0883b63d8274e6"
   integrity sha512-4G/TvCEP9M6xgY61r46UE4ruSgF42rZnvO0ZfIBI/240DNYMTpHLvjU3Xvrv3wDl3emCvy4QgAIceI/zj8nPjw==
@@ -1478,7 +1478,7 @@
     "@sentry/types" "5.12.0"
     tslib "^1.9.3"
 
-"@sentry/node@^5.11.2":
+"@sentry/node@^5.12.3":
   version "5.12.3"
   resolved "https://registry.yarnpkg.com/@sentry/node/-/node-5.12.3.tgz#4a4934b04c5163fc340312eaf0d152990aa7140f"
   integrity sha512-QwqN+i6IC3/YrNq7kqxH7YiXtZYY8tBuJqFi84WbiMHF7MAqxMSPNQJGfX2GJuMHKHwn6IZdgSE8+FkfN9zGLQ==
@@ -1506,7 +1506,7 @@
     "@sentry/types" "5.12.0"
     tslib "^1.9.3"
 
-"@sentry/webpack-plugin@^1.9.3":
+"@sentry/webpack-plugin@^1.10.0":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@sentry/webpack-plugin/-/webpack-plugin-1.10.0.tgz#7f7727b18dbdd3eaeb0998102be89d8733ddbca5"
   integrity sha512-keT6cH8732bFjdH/v+C/UwbJu6byZ5L8t7QRLjgj+fqDyc/RlVEw9VzIQSJGUtd2XgImpdduWzgxythLkwKJjg==
@@ -7231,7 +7231,7 @@ node-object-hash@^1.2.0:
   resolved "https://registry.yarnpkg.com/node-object-hash/-/node-object-hash-1.4.2.tgz#385833d85b229902b75826224f6077be969a9e94"
   integrity sha512-UdS4swXs85fCGWWf6t6DMGgpN/vnlKeSGEQ7hJcrs7PBFoxoKLmibc3QRb7fwiYsjdL7PX8iI/TMSlZ90dgHhQ==
 
-node-pre-gyp@*, node-pre-gyp@^0.14.0:
+node-pre-gyp@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
   integrity sha512-+CvDC7ZttU/sSt9rFjix/P05iS43qHCOOGzcr3Ry99bXG7VX953+vFyEuph/tfqoYu8dttBkE86JSKBO2OzcxA==
