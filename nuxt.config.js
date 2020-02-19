@@ -22,11 +22,12 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap&subset=japanese'
+          'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap&text=成長度今日は実施済み'
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Nunito:700&display=swap'
+        href:
+          'https://fonts.googleapis.com/css?family=Nunito:700&display=swap&text=0123456789+'
       }
     ]
   },
