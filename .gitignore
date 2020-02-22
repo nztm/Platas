@@ -9,6 +9,8 @@ dist
 coverage
 sw.*
 .env
+.env.development
+.env.production
 .nuxt
 .cache
 .vscode
