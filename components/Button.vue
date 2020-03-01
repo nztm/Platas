@@ -12,10 +12,16 @@
       <span>+1</span>
     </a>
   </div>
-  <div v-else>
+  <div v-else-if="nowDate === lastDate">
     <a class="button disabled">
       <img src="~/assets/img/Icon/fire.svg" />
       <span>今日は実施済み</span>
+    </a>
+  </div>
+  <div v-else>
+    <a class="button loading">
+      <img src="~/assets/img/Icon/fire.svg" />
+      <span>読み込み中</span>
     </a>
   </div>
 </template>
@@ -74,6 +80,14 @@ export default {
   opacity: 0.7;
   padding: 16px 24px;
   width: 220px;
+}
+
+.loading {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1.2em;
+  opacity: 0.7;
+  padding: 16px 24px;
+  width: 180px;
 }
 
 #scale {

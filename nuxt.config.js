@@ -22,7 +22,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap&text=成長度今日は実施済み'
+          'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap&text=成長度今日は実施済み読込中'
       },
       {
         rel: 'stylesheet',
