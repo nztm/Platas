@@ -5,12 +5,14 @@
   "author": "nztm",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
+    "dev": "cross-env NODE_ENV=development nuxt",
+    "build": "cross-env NODE_ENV=production nuxt build",
+    "build:deploy": "cross-env NODE_ENV=production nuxt build && yarn deploy",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "deploy": "gcloud app deploy"
   },
   "dependencies": {
     "@nuxtjs/dotenv": "1.4.1",
