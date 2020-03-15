@@ -54,13 +54,12 @@ export default {
 
   buildModules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics',
-    '@nuxtjs/imagemin'
+    '@nuxtjs/imagemin',
+    [
+      '@nuxtjs/google-analytics',
+      { id: process.env.GOOGLE_ANALYTICS_ID || 'dummy' }
+    ]
   ],
-
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID
-  },
 
   sentry: {
     dsn: process.env.SENTRY_DSN
