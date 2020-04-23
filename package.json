@@ -21,7 +21,7 @@
     "cross-env": "^7.0.2",
     "dayjs": "^1.8.23",
     "firebase": "7.8.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.0",
     "nuxt": "^2.12.1",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.3",
